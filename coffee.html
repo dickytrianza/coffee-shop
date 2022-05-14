@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <head>
+        <title>Coffee Shop</title>
+        <link rel = "icon" href = "https://image.similarpng.com/very-thumbnail/2020/11/Coffee-logo-design-on-transparent-background-PNG.png" 
+        type = "image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/37a5fd06c7.js" crossorigin="anonymous"></script>
+    </head>    
+<body>
+        <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="coffee.html">COFFEE</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onClick="showMenu()"></i>
+          </nav>  
+
+          <h1>Coffee Quality</h1>
+        </section>
+    <!---Coffe --->
+    <section class="coffee">
+        <h1>Premium Coffe Beans We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis vitae autem similique incidunt a ut voluptates, ab repellat omnis natus dolores quisquam ad nobis, error aut quam laboriosam odit!</p>
+        
+        <div class="row">
+            <div class="coffee-col">
+                <h3>Arabika</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt, consequuntur ab nobis possimus molestias doloremque, eos vitae reiciendis sunt est aliquam suscipit soluta quas exercitationem quos amet iusto nihil.</p>
+            </div>
+
+            <div class="coffee-col">
+                <h3>Robusta</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt, consequuntur ab nobis possimus molestias doloremque, eos vitae reiciendis sunt est aliquam suscipit soluta quas exercitationem quos amet iusto nihil.</p>
+            </div>
+
+            <div class="coffee-col">
+                <h3>Liberika</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt, consequuntur ab nobis possimus molestias doloremque, eos vitae reiciendis sunt est aliquam suscipit soluta quas exercitationem quos amet iusto nihil.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--- Menus --->
+    <section class="menus">
+        <h1>Favorite Menus</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="menu-col">
+                <img src="images/frappe.jpg">
+                <h3>Frappe</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi consequuntur provident reprehenderit ex quae rem sequi aspernatur ab architecto? Molestiae veniam reiciendis voluptates, exercitationem natus fuga reprehenderit qui molestias nulla!</p>
+            </div>
+            <div class="menu-col">
+                <img src="images/aren.png">
+                <h3>Kopi Gula Aren</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi consequuntur provident reprehenderit ex quae rem sequi aspernatur ab architecto? Molestiae veniam reiciendis voluptates, exercitationem natus fuga reprehenderit qui molestias nulla!</p>
+            </div>
+            <div class="menu-col">
+                <img src="images/latte.png">
+                <h3>Caffe Latte</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi consequuntur provident reprehenderit ex quae rem sequi aspernatur ab architecto? Molestiae veniam reiciendis voluptates, exercitationem natus fuga reprehenderit qui molestias nulla!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit sequi magni libero temporibus dolorum nam vitae placeat qui? <br>Et eum eaque magnam voluptas. Illum quo quis temporibus reiciendis beatae id?</p>
+        <div class="icons">
+            <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made by <i class="fa fa-instagram"></i> @dtrianza</p>
+    </section>
+
+    <!-- Javascript  for Toogle Menu-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

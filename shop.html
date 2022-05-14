@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <head>
+        <title>Coffee Shop</title>
+        <link rel = "icon" href = "https://image.similarpng.com/very-thumbnail/2020/11/Coffee-logo-design-on-transparent-background-PNG.png" 
+        type = "image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/37a5fd06c7.js" crossorigin="anonymous"></script>
+    </head>    
+<body>
+        <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="coffee.html">COFFEE</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onClick="showMenu()"></i>
+          </nav>  
+          <h1>Available Shipment Products</h1>
+        </section>
+
+    <!--- shop content-->
+    <div class="shop">
+        <div class="items">
+            <div class="shop-col">
+                <a target="_blank" href="images/bottles.jpg">
+                    <img src="images/bottles.jpg">
+                </a>
+                <div class="desc">Coffee Bottles</div>
+            </div>
+                
+            <div class="shop-col">
+                <a target="_blank" href="images/coffebag.jpg">
+                <img src="images/coffebag.jpg">
+                </a>
+                <div class="desc">Coffee Beans</div>
+            </div>
+            
+            <div class="shop-col">
+                <a target="_blank" href="images/coldbrew.jpg">
+                <img src="images/coldbrew.jpg">
+                </a>
+                <div class="desc">Cold Brew</div>
+            </div>
+            
+            <div class="shop-col">
+                <a target="_blank" href="images/icedcoffe.jpg">
+                <img src="images/icedcoffe.jpg">
+                </a>
+                <div class="desc">Iced Coffee</div>
+            </div>
+
+            <div class="shop-col">
+                <a target="_blank" href="images/shirt.jpg">
+                <img src="images/shirt.jpg">
+                </a>
+                <div class="desc">T-shirt</div>
+            </div>
+
+            <div class="shop-col">
+                <a target="_blank" href="images/mug.jpg">
+                <img src="images/mug.jpg">
+                </a>
+                <div class="desc">Mug</div>
+            </div>
+        </div>
+
+        <div class="order-btn">
+            <a href="https://www.tokopedia.com/">Order Now</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit aNmet consectetur adipisicing elit. Fugit sequi magni libero temporibus dolorum nam vitae placeat qui? <br>Et eum eaque magnam voluptas. Illum quo quis temporibus reiciendis beatae id?</p>
+        <div class="icons">
+            <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made by <i class="fa fa-instagram"></i> @dtrianza</p>
+    </section>
+
+    <!-- Javascript  for Toogle Menu-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
