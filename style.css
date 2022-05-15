@@ -252,6 +252,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    border: 2px solid #4b1f0e;
 }
 
 .menu-col img{
@@ -260,13 +261,14 @@ h3{
 }
 
 .menu-col p{
-    padding: 0;
+    padding: 10px;
 }
 
 .menu-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+    padding: 10px;
 }
 
 /*--- Testimonials ---*/
