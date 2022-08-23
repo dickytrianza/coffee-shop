@@ -1,3 +1,1 @@
-Contoh website  coffee shop sederhana yang dibuat dengan menggunakan html dan css.
-
-link website: https://coffe-shop-web.netlify.app/
+A simple coffe shop website
